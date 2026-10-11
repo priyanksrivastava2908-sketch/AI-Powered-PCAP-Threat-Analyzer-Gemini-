@@ -4,7 +4,7 @@ The AI-Powered PCAP Threat Analyzer is a lightweight, Python-based automation to
 
 This script acts as a highly efficient translation and triage layer. It leverages the scapy library to digest PCAP files, extracts high-signal network metadata (unique TCP/UDP connections and DNS queries), and formats this data into a lightweight summary. This summary is then transmitted to Google's Gemini LLM via the google-genai SDK. Instructed by a strict, role-based prompt, Gemini analyzes the traffic for Command and Control (C2) beaconing, Domain Generation Algorithms (DGA), phishing links, and data exfiltration attempts, returning a structured, actionable threat intelligence report.
 
-# AI-Powered PCAP Threat Analyzer (Gemini)
+# Advantages
 
 As a SOC Analyst, time to triage (TTT) is your most critical metric. This repository provides several distinct advantages for rapid incident response:
 
